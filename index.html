@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<style>
+          body, html {
+          padding: 0;
+          margin:0;
+          height: 100%;
+        }
+
+        .section {
+          width: 100%;
+          height: 100%;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          position: relative;
+          background-color: white;
+          z-index: 2;
+        }
+
+        .section.one,
+        
+
+        .section.two {
+          background: none;
+        }    
+
+        .sleep-video {
+            left: 0;
+            top: 0;
+            position: fixed;
+            width: 100%;
+            z-index: -20;
+        }
+</style>
+<h1>Hozzáférés megtagadva</h1>
+<video class="sleep-video" autoplay loop muted>
+  <source src="./backgrounkezdolap.mp4" type="video/mp4">
+</video>
+
+
+<div class="section two"></div>
+<div class="section three"></div>
